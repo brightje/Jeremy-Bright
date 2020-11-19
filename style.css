@@ -202,3 +202,7 @@ body{
 .white-text {
     color: white;
 }
+
+.margin-top{
+    margin-top: 60px;
+}
