@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <link rel="icon" href="beaverFavicon.ico">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+
+<!-- Code for navbar is modified from examples at https://getbootstrap.com/docs/4.5/components/navbar/ -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark mb-5 position-absolute">
+    <a class="navbar-brand" href=""> bright</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarID" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarID">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about-me.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="resume.html">Resume</a>
+            </li>
+
+        </ul>
+    </div>
+</nav>
+
+<!-- Bootstrap grid system code design modified from examples at https://getbootstrap.com/docs/4.5/layout/grid/ -->
+<section class="my-5 pl-2 pt-3">
+    <h2 class="h1-responsive font-weight-bold text-center my-5 white-text">Contact Me</h2>
+
+    <p class="blockquote font-weight-bold text-center w-responsive mx-auto pb-5 white-text">“The absence of a message sometimes is a presence of one.”
+        ― Hasse Jerner</p>
+
+    <div class="row no-gutters">
+
+        <div class="col-lg-6 mb-lg-0">
+
+            <!-- Code for emailto modified from https://www.w3adda.com/html-tutorial/html-email-links -->
+            <form method="POST" action="mailto:jeremy.q.bright@gmail.com" enctype="text/plain">
+            <div class="card text-white">
+                <div class="card-body contact-color">
+
+                    <div class="form-header blue accent-1">
+                        <h3 class="mt-2"><i class="fas fa-envelope"></i> Write to me:</h3>
+                    </div>
+                    <p class="dark-grey-text">It would be great to hear from you, unless you send me spam.</p>
+
+                    <div class="form-group">
+                        <i class="fas fa-user prefix grey-text"></i>
+                        <input type="text" name="Name" value="" id="form-name" class="form-control" placeholder="Name">
+                        <label for="form-name">Your name</label>
+                    </div>
+                    <div class="form-group">
+                        <i class="fas fa-envelope prefix grey-text"></i>
+                        <input type="email" name="Email" value="" id="form-email" class="form-control" placeholder="Email">
+                        <label for="form-email">Your email</label>
+                    </div>
+                    <div class="form-group">
+                        <i class="fas fa-tag prefix grey-text"></i>
+                        <input type="text" name="Subject" value="" id="form-Subject" class="form-control" placeholder="Subject">
+                        <label for="form-Subject">Subject</label>
+                    </div>
+                    <div class="form-group">
+                        <i class="fas fa-pencil-alt prefix grey-text"></i>
+                        <textarea id="form-text" name="name" class="form-control md-textarea" rows="3" placeholder="Message"></textarea>
+                        <label for="form-text">Your message</label>
+                    </div>
+                    <div class="text-center">
+                        <button class="btn btn-outline-light white-text">Submit</button>
+                    </div>
+                </div>
+            </div>
+            </form>
+
+        </div>
+
+        <div class="col-lg-auto border border-white ml-2">
+            <div >
+                <img class="" src="img/rikoBalloon.png" alt="riko">
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="text-center pt-5 white-text">
+    <p><small>Copyright Disclaimer Under Section 107 of the Copyright Act 1976, allowance is made for "fair use" for purposes such as criticism, comment, news reporting, teaching, scholarship, <br>
+        and research. Fair use is a use permitted by copyright statute that might otherwise be infringing. Non-profit, educational or personal use tips the balance in favour of fair use.</small></p>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+<script src="download.js"></script>
+
+
+</body>
+</html>
