@@ -74,14 +74,14 @@ nav{
 }
 
 .center1{
+    width: 50%;
     text-align: center;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 1em 6em 3em;
+
 }
 
 .center2{
-    margin-top: 30px;
     text-align: center;
     display: block;
     margin-left: auto;

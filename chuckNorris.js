@@ -1,5 +1,5 @@
 
-
+// code modified from examples in CS290 Ajax and Javascript modules
 
 document.addEventListener("DOMContentLoaded", bindButton);
 function bindButton() {
@@ -9,12 +9,8 @@ function bindButton() {
         // creates the request
         const req = new XMLHttpRequest();
         //const saying = document.getElementById("saying").value; // city info from form
-        let payload = "http://api.icndb.com/jokes/random";
+        let payload = "https://api.chucknorris.io/jokes/random";
 
-        // is the GET request URLs
-        //if (typeof document !== 'undefined') {
-        //    payload = ;
-        //}
 
         //Opening request, async must be marked as true
         req.open("GET", payload, true);
