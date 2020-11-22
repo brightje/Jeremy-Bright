@@ -40,10 +40,9 @@ body{
     background-color: #323232;
 }
 
-
-
-.margin-top{
+.margin-top2{
     margin-top: 60px;
+    padding-top: 20px;
 }
 
 
@@ -74,5 +73,18 @@ body{
     text-wrap: normal;
     padding-left: 30px;
 }
-/*-----------------------------------------------------------*/
 
+.contact-color{
+    background-color: #286840;
+}
+
+.box{
+    height: 1000px;
+    width: 600px;
+    border: 5px;
+    background-color: whitesmoke;
+}
+
+.text-box {
+    line-height: 2;
+}
