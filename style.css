@@ -88,3 +88,8 @@ body{
 .text-box {
     line-height: 2;
 }
+
+.margin-lr-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
